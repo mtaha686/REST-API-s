@@ -1,0 +1,25 @@
+19:25: Server Started
+19:26: Weather Update Subscription for Location = Islamabad Email = abdulreh4am9a@gmail.com Phone = +923112906812
+19:26: Data Fetched from Forecast API	Location: Islamabad
+Temperature: 17.69°C	Feels Like: 17.55°C	Min Temp: 17.69°C	Max Temp: 19.18°C	Humidity: 78%
+19:26: Email Sent!
+19:26: SMS Sent!
+19:26: Weather Update Subscription for Location = Islamabad Email = abdulreh4am9a@gmail.com Phone = +923112906812
+19:26: Data Fetched from Forecast API	Location: Islamabad
+Temperature: 17.69°C	Feels Like: 17.55°C	Min Temp: 17.69°C	Max Temp: 19.18°C	Humidity: 78%
+19:26: Email Sent!
+19:26: SMS Sent!
+19:27: Weather Update Subscription for Location = Islamabad Email = abdulreh4am9a@gmail.com Phone = +923112906812
+19:27: Data Fetched from Forecast API	Location: Islamabad
+Temperature: 17.69°C	Feels Like: 17.55°C	Min Temp: 17.69°C	Max Temp: 19.18°C	Humidity: 78%
+19:27: Email Sent!
+19:27: SMS Sent!
+08:57: Server Started
+08:58: Weather Update Subscription for Location = Multan Email = abdulreh4am9a@gmail.com Phone = +923112906812
+08:58: Data Fetched from Forecast API	Location: Multan
+Temperature: 21.22°C	Feels Like: 21.09°C	Min Temp: 21.22°C	Max Temp: 25.78°C	Humidity: 65%
+08:58: Email Sent!
+08:58: SMS Sent!
+11:37: Server Started
+11:38: Weather Update Subscription for Location = Islamabad Email = abdulreh4am9a@gmail.com Phone = +923112906812
+11:38: Unable to connect to Forecast API

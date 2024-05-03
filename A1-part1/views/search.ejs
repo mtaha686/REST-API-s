@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/main.css" />
+    <title>Find Universities by Country 🎓</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Search Universities by Country 🎓</h1>
+
+      <form action="/search" id="form" class="form" method="get">
+        <label for="country">Enter a Country:</label>
+        <input
+          type="text"
+          id="country"
+          name="country"
+          class="form-input"
+          placeholder="e.g., Pakistan"
+        />
+        <button type="submit" class="form-submit">Search</button>
+      </form>
+
+      <section id="cards" class="cards">
+        <% if (universities) { %> <% if (universities.length > 0) { %> <% for
+        (const university of universities) { %>
+        <article class="card-item">
+          <h2 class="card-activity"><%= university.name %></h2>
+          <div class="card-info">
+            <span class="card-type"> Country: <%= university.country %> </span>
+            <span class="card-participants">
+              Universities Count: <%= university.domains %>
+            </span>
+          </div>
+        </article>
+        <% } %> <% } else { %>
+        <p>No universities found for the given country.</p>
+        <% } %> <% } else { %>
+        <p>No universities found.</p>
+        <% } %>
+      </section>
+    </div>
+  </body>
+</html>

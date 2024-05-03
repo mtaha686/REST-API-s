@@ -1,0 +1,14 @@
+1- No Authentication:
+- The user can access the application without any authentication.
+- public API's
+2- Basic Authentication:
+- Username and password are sent in clear text over HTTPS using BASIC AUTHENTICATION scheme.
+- Base64 Wncoding! Basically the Username and password converted into
+- Base64 [Autorization]
+- you pass this data along when you 
+
+Diff btw Authentication and Authorisation?
+Authentication is about who a person or entity is, while authorization is about what they have access to do.
+3- API Key Authorisation
+- A key is passed with every request to identify a particular client or service.
+4- Token Based AUTHENTICATION:

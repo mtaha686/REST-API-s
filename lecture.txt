@@ -1,0 +1,12 @@
+baseurl/endpoint
+
+query paramaters:
+baseurl/endpoint?query
+bored-api.appbrewery.com/endpoint?query= value&query2=value
+https://www.boredapi.com/documentation
+
+path paramaters: id , username => identifying resources 
+bored-api.appbrewery.com/endpoint/{path-paramaters}
+
+JSON VOSUALISER
+JSONviewer.stack.hu
